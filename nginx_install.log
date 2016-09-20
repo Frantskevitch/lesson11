@@ -1,0 +1,13 @@
+[root@puppet manifests]# puppet apply site.pp 
+Notice: Compiled catalog for puppet.minsk.epam.com in environment production in 0.08 seconds
+Notice: /Stage[main]/Main/Package[nginx]/ensure: created
+Notice: Nginx is installed.
+Notice: /Stage[main]/Main/Notify[Nginx is installed.]/message: defined 'message' as 'Nginx is installed.'
+Notice: /Stage[main]/Main/Service[nginx]/ensure: ensure changed 'stopped' to 'running'
+Notice: Nginx is running.
+Notice: /Stage[main]/Main/Notify[Nginx is running.]/message: defined 'message' as 'Nginx is running.'
+Notice: Applied catalog in 4.95 seconds
+[root@puppet manifests]# service nginx status
+nginx (pid  7213) is running...
+[root@puppet manifests]# 
+

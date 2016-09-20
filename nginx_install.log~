@@ -1,0 +1,8 @@
+[mNotice: Compiled catalog for puppet.minsk.epam.com in environment production in 0.26 seconds[0m
+[mNotice: /Stage[main]/Main/Package[nginx]/ensure: created[0m
+[mNotice: Nginx is running.[0m
+[mNotice: /Stage[main]/Main/Notify[Nginx is running.]/message: defined 'message' as 'Nginx is running.'[0m
+[mNotice: Nginx is installed.[0m
+[mNotice: /Stage[main]/Main/Notify[Nginx is installed.]/message: defined 'message' as 'Nginx is installed.'[0m
+[mNotice: /Stage[main]/Main/Service[nginx]/ensure: ensure changed 'stopped' to 'running'[0m
+[mNotice: Finished catalog run in 11.72 seconds[0m
